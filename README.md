@@ -15,15 +15,16 @@ Examples:
 ## How to run
 The program is simple to run. First you start the server by running code below:
 
-Markup : `node .\server.js` 
+`node .\server.js` 
 
 Then you will either use the API with Postman or using the simple HTML page which works as a GUI.
 
 ## Using Postman
-To use Postman with the API simply go into Postman, create a new POST request with the url Markup : `http://localhost:3000/word`,
+To use Postman with the API simply go into Postman, create a new POST request with the url
+`http://localhost:3000/word`
 then navigate to the Body tab right below the url search bar. Select Raw for first tab, then JSON. and in the body simply add 
 
-Markup : ```json
+         ```json
          {
             "word": "$$Enter word wanting to be checked here$$"
          }
