@@ -61,14 +61,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/word', (req, res) => {
-    // Extract word from user input
-    var input = req.body;
+    // Extract value from req body
+    var input = req.body.word;
 
-    // Call function to check if user input word is Pyramid Word or not, then send result
-    result = checkWord(input.word);
+    // Check for empty word given
+    if(input.length == 0){
+        res.send('No String given!');
+    } else {
+        // Call function to check if user input word is Pyramid Word or not, then send result
+        result = checkWord(input);
 
-    // Return the result in the form of a modal
-    res.send(result);
+        // Return the result in the form of a modal
+        res.send(result);
+    }
 });
 
 app.listen(port, () => console.log(`Fetch Reward app listening on port ${port}!`))
