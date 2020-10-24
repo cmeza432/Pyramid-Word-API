@@ -13,11 +13,11 @@ Examples:
 * bandana is not a pyramid word because you have 1 'b' and 1 'd'
 
 ## How to run
-The program is simple to run. First you start the server by running code below:
+The program is simple to run. First you start the server by running the command prompt below:
 
 `node .\server.js` 
 
-Then you will either use the API with Postman or using the simple HTML page which works as a GUI.
+Then to use the API once server is running, you have a couple options. Use a API Platform like Postman, or the HTML file I created.
 
 ## Using Postman
 To use Postman with the API simply go into Postman, create a new POST request with the url
@@ -25,7 +25,7 @@ To use Postman with the API simply go into Postman, create a new POST request wi
 then navigate to the Body tab right below the url search bar. Select Raw for first tab, then JSON. and in the body simply add 
 
          {
-            "word": "$$Enter word wanting to be checked here$$"
+            "word": "[word to be checked]"
          }
 
 then simply click the Send tab next to the url bar and you should receive a result body which will display on the bottom of the page.
@@ -33,4 +33,4 @@ then simply click the Send tab next to the url bar and you should receive a resu
 ## Using HTML page
 To use the given HTML page, make sure the server is running with the above command and then open up the index.html file in the folder.
 Once opened up, just type in the word wanting to be checked and it will display result. If another word is needing to be checked simply click on the back arrow
-on top of the browser. Like I said this is a simple web app.
+on top of the browser. Enjoy!
