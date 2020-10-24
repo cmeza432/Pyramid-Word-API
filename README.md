@@ -24,11 +24,10 @@ To use Postman with the API simply go into Postman, create a new POST request wi
 `http://localhost:3000/word`
 then navigate to the Body tab right below the url search bar. Select Raw for first tab, then JSON. and in the body simply add 
 
-         `
          {
             "word": "$$Enter word wanting to be checked here$$"
          }
-         `
+
 then simply click the Send tab next to the url bar and you should receive a result body which will display on the bottom of the page.
 
 ## Using HTML page
