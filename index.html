@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <title>Fetch Rewards Coding Exercise</title>
+</head>
+
+<body>
+    <!-- Class for the top header banner -->
+    <h1 class="header">Fetch Rewards Coding Exercise</h1> 
+
+    <!-- The about container, will have header and info about the functionality of the webapp -->
+    <div class="aboutContainer">
+        <h2 class="about">About</h2> 
+        <p1 class="aboutP">Give a string as input and app will return a response indicating whether a word is a pyramid word. A word is a pyramid word if it's letters can be arranged in increasing frequency,
+         starting with 1 and continuing without gaps and without duplicates.</p1> 
+    </div>
+
+    <!-- The box container will have the input bar and submit button which will return result of either true or false -->
+    <div class="container" id="container">
+        <form action="http://localhost:3000/word" method="POST">
+            <p2 style="font-size: 30px;">Enter Word:</p2>
+            <input type="text" class="userInput" id="userInput" name="word"/>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="server.js"></script>
+
+</body>
+
+</html>

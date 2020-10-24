@@ -1,0 +1,21 @@
+{
+  "name": "fetch-rewards",
+  "version": "1.0.0",
+  "description": "App will take user input and output if it is a pyramid word",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Carlos Meza",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  }
+}
