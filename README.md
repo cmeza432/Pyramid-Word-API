@@ -21,22 +21,21 @@ The program is simple to run. First you start the server by running the command 
 
 `node .\server.js`
 
-Then to use the API once server is running, you have a couple options. Use a API Platform like Postman, or the HTML file I created.
+You have a few options on how to use the API once the server is running. Use a API Platform like Postman, or the HTML file I created.
 
 ## Using Postman
 
 To use Postman with the API simply go into Postman, create a new POST request with the url
-`http://localhost:3000/word`
-then navigate to the body tab right below the url search bar. Select Raw in the first tab, then JSON in the second. and in the body simply add
+`http://localhost:3000/word` then navigate to the body tab right below the url search bar. Select Raw in the first tab, then JSON in the second. The request body you will be sending should look like below:
 
          {
             "word": "[word to be checked]"
          }
 
-then simply click the Send tab next to the url bar and you should receive a result body which will display on the bottom of the page.
+Then click the Send tab next to the url bar and you should receive a result body which will display on the bottom of the page.
 
 ## Using HTML page
 
 To use the given HTML page, make sure the server is running with the above command and then open up the index.html file in the folder.
-Once opened up, just type in the word wanting to be checked and it will display result. If another word is needing to be checked simply click on the back arrow
-on top of the browser. Enjoy!
+Once opened up, just type the word wanting to be checked and it will display the result. If another word is needing to be checked simply click the back arrow
+for the browser. Enjoy!
