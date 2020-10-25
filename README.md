@@ -4,7 +4,7 @@ Project that uses POST API call using Node.js.
 
 ## Summary
 
-The programm contains a simple API created in Node.js. This API check if input given is a Pyramid Word. App will start up on the 3000 port.
+The programm contains a simple API created in Node.js. This API checks if input given is a Pyramid Word. App will start up on the 3000 port.
 
 ## Pyramid Word
 
