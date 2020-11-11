@@ -1,4 +1,4 @@
-# Fetch-Rewards
+# Pyramid Word
 
 Project that uses POST API call using Node.js.
 
